@@ -72,5 +72,5 @@ FUNCTIONS
     template(pattern, flags=0)
         Compile a template pattern, returning a pattern object
         """
-s = re.compile(r'\d')
+s = re.compile(r'\s+')
 print(s.match('111  ddsss  111'))
